@@ -1,0 +1,21 @@
+{
+    "type": "speedrun",
+    "name": "speedrun_enbo2",
+    "authors": [
+        "Tony Borisov"
+    ],
+    "releaseDate": "2023",
+    "difficulty": "easy",
+    "length": "medium",
+    "file": "speedrun_enbo2.zip",
+    "presentationUrl": "https://www.youtube.com/watch?v=qHO66rAeI2w",
+    "images": [
+        "1.jpg"
+    ],
+    "tags": [
+        "ramp",
+        "stairs",
+        "60fps_unsupported",
+        "legit_unsupported"
+    ]
+}
