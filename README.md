@@ -41,8 +41,8 @@ Every map folder includes:
     "name": string,                            // map name
     "authors": [string],                       // array of author names/nicknames/steamids
     "releaseDate": "YYYY-MM-DD",               // release date
-    "difficulty": "easy" | "medium" | "hard" | "insane",
-    "length": "small" | "medium" | "large" | "huge",
+    "difficulty": "trivial" | "easy" | "medium" | "hard" | "insane",
+    "length": "tiny" | "small" | "medium" | "large" | "huge",
     "file": string,                            // filename of the .zip archive (e.g., "speedrun_enbo2.zip")
     "presentationUrl": string,                 // optional: URL to a YouTube video or similar
     "images": [string],                        // array of image filenames (relative to images/ dir)
