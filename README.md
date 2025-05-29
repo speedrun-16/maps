@@ -49,3 +49,20 @@ Every map folder includes:
     "tags": [string],                          // optional: array of tags (see below)
     "description": string                      // optional: Longer description of the map
 }
+```
+
+## Tags
+
+| Tag Name             | Description                                                                    |
+|----------------------|--------------------------------------------------------------------------------|
+| `ramp`               | Map contains ramp                                                              |
+| `surf`               | Refers to a surf element where players glide along angled ramps                |
+| `push`               | Indicates an element that propels the player, such as a trigger_push brush     |
+| `existing_map_remake`| The level is a remake or reimagining of a pre-existing map                     |
+| `60fps_unsupported`  | Impossible to complete or do a proper run at 60 FPS                            |
+| `100fps_unsupported` | Impossible to complete or do a proper run at 100 FPS                           |
+| `legit_unsupported`  | Impossible to complete or do a proper run without bunnyhopping                 |
+| `stairs`             | Contains stair structures                                                      |
+| `winding`            | Features twisting pathways, resembling winding corridors                       |
+| `water`              | Contains underwater sections                                                   |
+| `instinct`           | No clear or obvious path—requires players to explore and find their own route  |
