@@ -61,6 +61,7 @@ Every map folder includes:
 | `existing_map_remake`| The level is a remake or reimagining of a pre-existing map                     |
 | `60fps_unsupported`  | Impossible to complete or do a proper run at 60 FPS                            |
 | `100fps_unsupported` | Impossible to complete or do a proper run at 100 FPS                           |
+| `131fps_unsupported` | Impossible to complete or do a proper run at 131 FPS                           |
 | `legit_unsupported`  | Impossible to complete or do a proper run without bunnyhopping                 |
 | `stairs`             | Contains stair structures                                                      |
 | `winding`            | Features twisting pathways, resembling winding corridors                       |
