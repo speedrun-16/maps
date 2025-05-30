@@ -58,7 +58,7 @@ Every map folder includes:
 | `ramp`               | Map contains ramp                                                              |
 | `surf`               | Refers to a surf element where players glide along angled ramps                |
 | `push`               | Indicates an element that propels the player, such as a trigger_push brush     |
-| `existing_map_remake`| The level is a remake or reimagining of a pre-existing map                     |
+| `remake`             | Indicates that the map is a remake, edit, or reimagining of a pre-existing map |
 | `60fps_unsupported`  | Impossible to complete or do a proper run at 60 FPS                            |
 | `100fps_unsupported` | Impossible to complete or do a proper run at 100 FPS                           |
 | `131fps_unsupported` | Impossible to complete or do a proper run at 131 FPS                           |
