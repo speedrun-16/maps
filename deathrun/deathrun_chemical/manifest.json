@@ -1,0 +1,17 @@
+{
+    "type": "deathrun",
+    "name": "deathrun_chemical",
+    "authors": [
+        "Sola"
+    ],
+    "releaseDate": "2009",
+    "difficulty": "trivial",
+    "length": "tiny",
+    "file": "deathrun_chemical.zip",
+    "presentationUrl": null,
+    "images": [
+        "1.jpg",
+        "2.jpg"
+    ],
+    "tags": []
+}
