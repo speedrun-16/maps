@@ -1,0 +1,40 @@
+name: Generate Combined Map Manifest
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  build:
+    # only run the job if the commit message contains "map:"
+    if: contains(github.event.head_commit.message, 'map:')
+
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate combined all.json
+        run: |
+          echo "Commit message contains 'map:'. Proceeding with manifest generation..."
+          
+          # 1. `find` locates all manifest.json files
+          # 2. `xargs cat` outputs their content as a stream of JSON objects
+          # 3. `jq -s .` ("slurp" mode) reads the entire stream and wraps it in a JSON array
+          # 4. The final array is written to all.json
+          find speedrun deathrun -type f -name "manifest.json" -print0 | xargs -0 cat | jq -s . > all.json
+          
+          echo "all.json generated successfully."
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: generate all.json manifest"
+          file_pattern: "all.json"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
