@@ -66,4 +66,5 @@ Every map folder includes:
 | `stairs`             | Contains stair structures                                                      |
 | `winding`            | Features twisting pathways, resembling winding corridors                       |
 | `water`              | Contains underwater sections                                                   |
-| `instinct`           | No clear or obvious path—requires players to explore and find their own route  |
+| `instinct`           | No clear or obvious path, requires players to explore and find their own route |
+| `technical`          | Requires precise timing and precise movement                                   |
