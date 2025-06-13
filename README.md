@@ -53,18 +53,19 @@ Every map folder includes:
 
 ## Tags
 
-| Tag Name             | Description                                                                    |
-|----------------------|--------------------------------------------------------------------------------|
-| `ramp`               | Map contains ramp                                                              |
-| `surf`               | Refers to a surf element where players glide along angled ramps                |
-| `push`               | Indicates an element that propels the player, such as a trigger_push brush     |
-| `remake`             | Indicates that the map is a remake, edit, or reimagining of a pre-existing map |
-| `60fps_unsupported`  | Impossible to complete or do a proper run at 60 FPS                            |
-| `100fps_unsupported` | Impossible to complete or do a proper run at 100 FPS                           |
-| `131fps_unsupported` | Impossible to complete or do a proper run at 131 FPS                           |
-| `legit_unsupported`  | Impossible to complete or do a proper run without bunnyhopping                 |
-| `stairs`             | Contains stair structures                                                      |
-| `winding`            | Features twisting pathways, resembling winding corridors                       |
-| `water`              | Contains underwater sections                                                   |
-| `instinct`           | No clear or obvious path, requires players to explore and find their own route |
-| `technical`          | Requires precise timing and precise movement                                   |
+| Tag Name             | Description                                                                         |
+|----------------------|-------------------------------------------------------------------------------------|
+| `ramp`               | Map contains ramp                                                                   |
+| `surf`               | Refers to a surf element where players glide along angled ramps                     |
+| `push`               | Indicates an element that propels the player, such as a trigger_push brush          |
+| `remake`             | Indicates that the map is a remake, edit, or reimagining of a pre-existing map      |
+| `60fps_unsupported`  | Impossible to complete or do a proper run at 60 FPS                                 |
+| `100fps_unsupported` | Impossible to complete or do a proper run at 100 FPS                                |
+| `131fps_unsupported` | Impossible to complete or do a proper run at 131 FPS                                |
+| `legit_unsupported`  | Impossible to complete or do a proper run without bunnyhopping                      |
+| `stairs`             | Contains stair structures                                                           |
+| `winding`            | Features twisting pathways, resembling winding corridors                            |
+| `water`              | Contains underwater sections                                                        |
+| `instinct`           | No clear or obvious path, requires players to explore and find their own route      |
+| `technical`          | Requires precise timing and precise movement                                        |
+| `teleport`           | Map contains a teleport element, where players are moved between segments or levels |
