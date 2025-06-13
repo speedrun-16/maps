@@ -1,6 +1,27 @@
 [
   {
     "type": "speedrun",
+    "name": "speedrun_enemy_easy",
+    "authors": [
+      "PWNED"
+    ],
+    "releaseDate": "2015",
+    "difficulty": "easy",
+    "length": "large",
+    "file": "speedrun_enemy_easy.zip",
+    "presentationUrl": "",
+    "images": [
+      "1.jpg",
+      "2.jpg",
+      "3.jpg"
+    ],
+    "tags": [
+      "remake",
+      "ramp"
+    ]
+  },
+  {
+    "type": "speedrun",
     "name": "speedrun_enbo2",
     "authors": [
       "Tony Borisov"
